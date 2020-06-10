@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="partesdelcuerpo" version="0.1.3">
+ <settings>
+  <title>PartesDelCuerpo</title>
+  <revision description="created" date="6/9/20" />
+  <descriptors />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="SistemaDigestivo" />
+ </sequence>
+ <activities>
+  <activity class="@puzzles.DoublePuzzle" name="SistemaDigestivo" code="">
+   <description>
+    <p>Arrastra las partes del sistema digestivo y ubícalo en el cuerpo del niño.</p>
+   </description>
+   <messages />
+   <settings margin="8" dragCells="true" report="true" reportActions="true">
+    <helpWindow showSolution="false">
+     <p>Arrastrar las partes del sistema digestivo presionándolo.</p>
+    </helpWindow>
+    <container bgColor="0x33FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFCC33" border="true" />
+    <eventSounds>
+     <sound id="start" file="Record (online-voice-recorder.com) (1).mp3" />
+     <sound id="click" enabled="false" />
+     <sound id="actionError" file="Record (online-voice-recorder.com) (3).mp3" />
+     <sound id="actionOk" file="Record (online-voice-recorder.com) (2).mp3" />
+     <sound id="finishedOk" file="Record (online-voice-recorder.com) (4).mp3" />
+    </eventSounds>
+    <skin file="@mini.xml" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="NIÑO-resized.jpg">
+    <style borderStroke="1.6" markerStroke="2.7">
+     <color background="0xFFFFFF" inactive="0x00FFFF" />
+    </style>
+    <shaper class="@Holes" cols="3" rows="2">
+     <shape comment="0">M:0.421053,0.3125|L:0.425,0.311667|L:0.421053,0.3125|L:0.423684,0.314167|Q:0.527632,0.328333,0.642105,0.313333|Q:0.615789,0.356667,0.540789,0.365833|Q:0.436842,0.360833,0.421053,0.3125</shape>
+     <shape comment="1">M:0.506579,0.381667|L:0.543421,0.380833|L:0.546053,0.448333|L:0.565789,0.460833|L:0.546053,0.463333|L:0.510526,0.4525|L:0.505263,0.443333|L:0.506579,0.44|L:0.514474,0.414167|L:0.506579,0.3825|L:0.507895,0.383333|L:0.506579,0.381667</shape>
+     <shape comment="2">M:0.579605,0.480917|L:0.567763,0.472583|L:0.570395,0.455083|Q:0.567105,0.463833,0.545395,0.46425|Q:0.542105,0.482583,0.571711,0.485083|L:0.584211,0.493|Q:0.5625,0.5255,0.526974,0.52425|L:0.515789,0.520333|Q:0.492105,0.5205,0.492105,0.527333|L:0.481053,0.534|L:0.485526,0.551333|L:0.505921,0.55675|L:0.515132,0.553417|L:0.504211,0.544333|Q:0.507895,0.541667,0.508421,0.531667|L:0.519079,0.525083|L:0.521711,0.525083|L:0.516447,0.52675|B:0.529605,0.573833,0.713816,0.532583,0.642105,0.480917|Q:0.610526,0.474667,0.579605,0.480917</shape>
+     <shape comment="3">M:0.484737,0.549667|L:0.505789,0.556|L:0.519474,0.550333|Q:0.535,0.5485,0.550526,0.546667|Q:0.590526,0.552,0.649474,0.527|Q:0.677368,0.522667,0.68,0.534667|Q:0.688421,0.5305,0.709474,0.545|Q:0.712632,0.560333,0.720263,0.565|Q:0.722632,0.578333,0.716316,0.6|Q:0.711579,0.622,0.693947,0.625|Q:0.681053,0.633667,0.666316,0.630833|Q:0.647895,0.637333,0.630789,0.635|Q:0.618947,0.629333,0.617632,0.620833|Q:0.624211,0.614167,0.630789,0.6075|L:0.630789,0.598333|Q:0.632763,0.585,0.634737,0.571667|Q:0.604211,0.574333,0.602105,0.58|L:0.558421,0.581|L:0.522105,0.580333|L:0.488947,0.581|Q:0.449474,0.575667,0.487368,0.561333|L:0.447368,0.56|Q:0.437895,0.568,0.443684,0.575667|Q:0.434211,0.577333,0.417368,0.569|Q:0.407895,0.571,0.416316,0.5925|L:0.421579,0.6125|L:0.407105,0.626667|Q:0.41,0.636667,0.408421,0.647333|L:0.396842,0.631333|L:0.384737,0.635|L:0.382982,0.634444|Q:0.330351,0.648333,0.318947,0.61|Q:0.309474,0.597667,0.320263,0.59|Q:0.312632,0.576,0.322632,0.574667|Q:0.316316,0.567667,0.330789,0.558333|Q:0.318421,0.548333,0.333158,0.545667|Q:0.320526,0.537667,0.34,0.531|Q:0.343158,0.520333,0.38,0.526667|Q:0.397895,0.516333,0.417895,0.524|L:0.425789,0.531|Q:0.451053,0.532,0.455789,0.541667|Q:0.475263,0.538667,0.484737,0.549667</shape>
+     <shape comment="4">M:0.418947,0.620667|L:0.436842,0.629333|L:0.431579,0.638667|L:0.438947,0.646333|L:0.432632,0.652333|L:0.431579,0.661333|L:0.425789,0.666667|L:0.426316,0.672333|L:0.440526,0.674333|L:0.452632,0.673333|L:0.455263,0.669333|L:0.467368,0.670333|L:0.479474,0.669667|L:0.494211,0.675333|L:0.506842,0.677333|L:0.523684,0.676|L:0.536842,0.667667|L:0.567368,0.670667|L:0.581053,0.662333|L:0.602105,0.663333|L:0.614737,0.657667|L:0.616316,0.652667|L:0.628421,0.649667|L:0.634211,0.641333|L:0.630526,0.637|L:0.614211,0.623333|L:0.618421,0.616|L:0.627368,0.607667|L:0.617895,0.601|L:0.616842,0.598667|L:0.624737,0.588333|L:0.617895,0.583|L:0.608947,0.580667|L:0.601053,0.581333|L:0.572105,0.582333|L:0.516316,0.581667|L:0.503684,0.585333|L:0.491579,0.587333|L:0.477895,0.582667|L:0.467895,0.575333|L:0.465263,0.571|L:0.471053,0.568333|L:0.484211,0.561333|L:0.447895,0.561333|L:0.443684,0.566|L:0.441579,0.571667|L:0.442632,0.576667|L:0.446842,0.581667|L:0.434211,0.577333|L:0.416842,0.586|L:0.416316,0.595|L:0.425789,0.603667|L:0.424737,0.609|L:0.422105,0.615333|L:0.419474,0.620667|L:0.418947,0.620667</shape>
+     <shape comment="5">M:0.506316,0.679667|L:0.515263,0.686|L:0.525263,0.692333|L:0.540526,0.694|L:0.544211,0.685667|L:0.555789,0.675333|L:0.556842,0.67|L:0.538947,0.669333|L:0.53,0.674|L:0.525263,0.678|L:0.516316,0.677333|L:0.505263,0.679333|L:0.505263,0.679333|L:0.506316,0.679667</shape>
+    </shaper>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="LA BOCA.mp3" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="ESOFAGO.mp3" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="ESTOMAGO.mp3" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="GRUESO.mp3" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="DELGADO.mp3" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="RECTO.mp3" />
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="BA" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="NIÑO-resized.jpg" file="nino-resized.jpg" />
+  <media name="DELGADO.mp3" file="delgado.mp3" />
+  <media name="ESOFAGO.mp3" file="esofago.mp3" />
+  <media name="ESTOMAGO.mp3" file="estomago.mp3" />
+  <media name="GRUESO.mp3" file="grueso.mp3" />
+  <media name="LA BOCA.mp3" file="la_boca.mp3" />
+  <media name="Record (online-voice-recorder.com) (1).mp3" file="record__online-voice-recorder.com___1_.mp3" />
+  <media name="Record (online-voice-recorder.com) (2).mp3" file="record__online-voice-recorder.com___2_.mp3" />
+  <media name="Record (online-voice-recorder.com) (3).mp3" file="record__online-voice-recorder.com___3_.mp3" />
+  <media name="Record (online-voice-recorder.com) (4).mp3" file="record__online-voice-recorder.com___4_.mp3" />
+  <media name="RECTO.mp3" file="recto.mp3" />
+ </mediaBag>
+</JClicProject>
+

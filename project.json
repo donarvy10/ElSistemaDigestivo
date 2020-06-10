@@ -1,0 +1,42 @@
+{
+  "title": "PartesDelCuerpo",
+  "date": "9/06/20",
+  "description": {
+    "es": ""
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "mainFile": "partesdelcuerpo.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 1,
+  "mediaFiles": 16,
+  "totalSize": 2096796,
+  "files": [
+    "delgado.mp3",
+    "esofago.mp3",
+    "estomago.mp3",
+    "favicon.ico",
+    "grueso.mp3",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "la_boca.mp3",
+    "nino-resized.jpg",
+    "partesdelcuerpo.jclic",
+    "partesdelcuerpo.jclic.js",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "record__online-voice-recorder.com___1_.mp3",
+    "record__online-voice-recorder.com___2_.mp3",
+    "record__online-voice-recorder.com___3_.mp3",
+    "record__online-voice-recorder.com___4_.mp3",
+    "recto.mp3"
+  ]
+}
